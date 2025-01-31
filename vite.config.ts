@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 4800
+    port: 4800,
+    allowedHosts: ['hgtecpan.duckdns.org', 'localhost', '127.0.0.1'],
   }
 })
